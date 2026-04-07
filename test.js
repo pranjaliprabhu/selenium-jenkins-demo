@@ -7,3 +7,4 @@ const msg = process.env.MESSAGE || "Default Message";
 
 console.log(name);
 console.log(msg);
+console.log("hello")
