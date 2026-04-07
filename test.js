@@ -1,10 +1,11 @@
-require('dotenv').config({
-  path: '/Users/shailesh/Desktop/sample/.env'
-});
+require('dotenv').config();
 
-const name = process.env.NAME || "Default Name";
-const msg = process.env.MESSAGE || "Default Message";
+console.log("Test is running...");
 
-console.log(name);
-console.log(msg);
-console.log("hello")
+const name = process.env.NAME;
+const msg = process.env.MESSAGE;
+
+console.log("Name:", name);
+console.log("Message:", msg);
+
+console.log("ENV CHECK:", process.env.NAME, process.env.MESSAGE);
