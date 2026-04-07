@@ -1,7 +1,6 @@
 require('dotenv').config({
-  path: './.env'
+  path: '/Users/shailesh/Desktop/sample/.env'
 });
-
 
 const name = process.env.NAME || "Default Name";
 const msg = process.env.MESSAGE || "Default Message";
